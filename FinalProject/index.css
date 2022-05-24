@@ -74,6 +74,12 @@ h3 {
 	align-items: center;
 }
 
+.column {
+	column-count: 2;
+	column-gap: 100px;
+	column-rule-style: solid;
+}
+
 .charTitle {
 	text-align: center;
 	font-size: 25px;
@@ -83,6 +89,34 @@ h3 {
 	background-color: #e0f3ff;
 	padding: 15px;
 	text-align: center;
+}
+
+.pyro {
+	background-color: #b62529;
+}
+
+.hydro {
+	background-color: #238ebd;
+}
+
+.anemo {
+	background-color: #2a9c8f;
+}
+
+.electro {
+	background-color: #7453c2;
+}
+
+.dendro {
+	background-color: #72aa27;
+}
+
+.cryo {
+	background-color: #7ca7d8;
+}
+
+.geo {
+	background-color: #eba353;
 }
 
 .charDesc {
@@ -139,5 +173,9 @@ h4 {
 
 	.picSection {
 		width: 360px;
+	}
+
+	ul {
+		font-size: 17px;
 	}
 }
