@@ -1,0 +1,33 @@
+.publish-time {
+	color: gray;
+}
+
+.destination {
+	font-family: cursive;
+	color: orange;
+}
+
+.description {
+	font-weight: bold;
+}
+
+#Italy-desc {
+	color: green;
+}
+
+#China-desc {
+	color: red;
+}
+
+#SouthKorea-desc {
+	color: blue;
+}
+
+.img-dest {
+	height: 225px;
+	width: 400px;
+}
+
+#img-border {
+	border-radius: 30px;
+}

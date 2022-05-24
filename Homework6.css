@@ -1,0 +1,163 @@
+.text {
+	font-family: Noteworthy;
+}
+
+.container1 {
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-template-rows: 350px 350px 350px 350px 350px 350px 350px;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	justify-content: space-evenly;
+	padding: 20px;
+	background-color: pink;
+}
+
+.container2 {
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-template-rows: 50%;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	justify-content: space-around;
+}
+
+.set1 {
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.set2 {
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+
+#item1 {
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+#item2 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+#item3 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+
+#item4 {
+	border: 3px solid steelblue;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+	color: darkred;
+}
+
+#item5 {
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+#item6 {
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+#item7 {
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+#item8 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 6;
+}
+
+#item8-1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+#item8-2 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row: 2;
+}
+
+#item8-3 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+
+#item8-4 {
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row: 2;
+}
+
+#item8-5 {
+	grid-column-start: 5;
+	grid-column-end: 6;
+}
+
+#item9 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 6;
+	grid-row-end: 7;
+}
+
+#item10 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 6;
+	grid-row-end: 7;
+}
+
+#item11 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 6;
+	grid-row-end: 7;
+}
+
+#item12 {
+	border: 3px solid steelblue;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 7;
+	grid-row-end: 8;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: darkred;
+}
+
+#item13 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 7;
+	grid-row-end: 8;
+}
+
+#item14 {
+	border: 3px solid steelblue;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 7;
+	grid-row-end: 8;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: darkred;
+}

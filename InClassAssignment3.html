@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Emily Wu - In Class Assignment #3</title>
+</head>
+
+<body style="background-color:lightyellow;">
+	<h1>Emily Wu - MEDP 285</h1>
+	<h2>In Class Assignment #3</h2>
+	<div style="display: flex; justify-content: space-evenly;">
+		<div class="responsive">
+			<h3>Responsive Image - srcset method</h3>
+			<img srcset="files/ICA3/img1_25.jpg 860w,
+						files/ICA3/img1_50.jpg 1024w,
+						files/ICA3/img1_75.jpg 1280w"
+			sizes="(max-width: 860px) 25vw,
+					(max-width: 1024px) 50vw,
+					(max-width: 1280px) 100vw,
+					1280px"
+			src="files/ICA3/img1.jpg"
+			alt="Creamart - Red Velvet Black Milk Tea">
+		</div>
+		<div>
+			<h3>Responsive Image - picture method</h3>
+			<picture>
+				<source media="(max-width: 860px)" srcset="files/ICA3/img2_25.jpg">
+				<source media="(max-width: 1024px)" srcset="files/ICA3/img2_50.jpg">
+				<img src="files/ICA3/img2_75.jpg" alt="Creamart - Matcha Black Milk Tea" style="width:auto;">
+			</picture>
+		</div>
+	</div>
+	<br>
+	<p>Index: <a href="index.html">Link</a></p>
+</body>
+
+</html>

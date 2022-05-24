@@ -1,0 +1,12 @@
+body {
+	background-color: plum;
+	padding: 200px 0;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#demo {
+	background: lightyellow;
+	color: dodgerblue;
+	padding: 5px;
+}
