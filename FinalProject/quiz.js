@@ -193,7 +193,6 @@ var selectedopt;
 			$(this).prop("checked", true);
 				selectedopt = $(this).val();
 		});		 
-	});
 
 	$('#next').click(function(e) {
 			e.preventDefault();
@@ -210,3 +209,4 @@ var selectedopt;
 		}
 			Genshinq.changeQuestion(-1);
 	});
+});
