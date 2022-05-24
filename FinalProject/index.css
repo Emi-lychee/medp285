@@ -76,7 +76,7 @@ h3 {
 
 .column {
 	column-count: 2;
-	column-gap: 100px;
+	column-gap: 75px;
 	column-rule-style: solid;
 }
 
